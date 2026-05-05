@@ -100,11 +100,12 @@ nav{
 /* ---------- Hero ---------- */
 .hero{
   position:relative;height:100vh;min-height:640px;
-  display:flex;align-items:flex-end;
-  padding:0 2.5rem 6rem;
+  display:flex;align-items:flex-start;
+  padding:24vh 2.5rem 0;
   overflow:hidden;
   color:#f5efe4;
 }
+@media(max-width:780px){.hero{padding-top:14vh;padding-left:1.5rem;padding-right:1.5rem}}
 .hero::before{
   content:'';position:absolute;inset:0;
   background:
